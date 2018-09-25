@@ -13,11 +13,11 @@ package utilitarios;
 public class Nodo<T> {
 
     private T valor;
-    private Nodo<T> next;
+    private Nodo<T> proximo;
 
     public Nodo(T valor, Nodo<T> next) {
         this.valor = valor;
-        this.next = next;
+        this.proximo = next;
     }
 
     public T getValor() {
@@ -28,12 +28,12 @@ public class Nodo<T> {
         this.valor = valor;
     }
 
-    public Nodo<T> getNext() {
-        return next;
+    public Nodo<T> getProximo() {
+        return proximo;
     }
 
-    public void setNext(Nodo<T> next) {
-        this.next = next;
+    public void setProximo(Nodo<T> proximo) {
+        this.proximo = proximo;
     }
 
 }
